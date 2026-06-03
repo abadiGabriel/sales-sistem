@@ -30,13 +30,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '74.220.48.0/24',
-    '74.220.56.0/24',
-    '216.151.17.91',
-    '216.151.17.92',
-    'https://sales-sistem-42a4.onrender.com',
-]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
